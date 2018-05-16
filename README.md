@@ -14,7 +14,7 @@ class testfuzzer(FuzzBase):
         super(testfuzzer, self).__init__(config, self.mutator)
 
     def mutator(self, fuzzer):
-        return seedpath
+        return input_generated_seedfile_path
 
 if __name__ == "__main__":
     fuzzer = testfuzzer("config/test-config.json")
