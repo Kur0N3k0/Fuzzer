@@ -1,0 +1,9 @@
+{
+	"directory" : "target file",
+	"seed" : "Seed folder",
+	"target" : "target exe",
+	"dbg" : "C:\\Program Files (x86)\\Windows Kits\\10\\Debuggers\\x86\\cdb.exe",
+	"dbgopt" : "-c \"sxd *;.logopen /t [enter your log folder];u;r;kb;q\" -G -g -o",
+	"fuzzdepth" : 1,
+	"timeout" : 5
+}
